@@ -1,2 +1,5 @@
+![image](https://user-images.githubusercontent.com/5803001/45917824-f2641680-beaf-11e8-8076-b0f139d88270.png)
+
 # algorithm-snippets
-Code Snippets of DataStructure &amp; Algorithm Implementations/Solutions for Several Programming Language: Java, JavaScript, Go, Python, Rust, etc.  :dizzy: 多语言版本的数据架构与算法实现分析
+
+algorithm-snippets 是 [coding-snippets](https://github.com/wxyyxc1992/coding-snippets) 的重要组成部分。
