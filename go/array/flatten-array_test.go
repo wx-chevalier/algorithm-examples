@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_listFlatten(t *testing.T) {
+func Test_FlattenArray(t *testing.T) {
 	type args struct {
 		l []interface{}
 	}
@@ -24,8 +24,8 @@ func Test_listFlatten(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := listFlatten(tt.args.l); !reflect.DeepEqual(got, tt.want) {
-				t.Errorf("listFlatten() = %v, want %v", got, tt.want)
+			if got := FlattenArray(tt.args.l); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("FlattenArray() = %v, want %v", got, tt.want)
 			}
 		})
 	}
