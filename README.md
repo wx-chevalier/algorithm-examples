@@ -10,4 +10,8 @@ algorithm-snippets 是 [coding-snippets](https://github.com/wxyyxc1992/coding-sn
 
 # Go
 
+# Python
+
+在 Python 部分，我们很多的示例都是基于 Notebook 演示，你可以在 Colab 中便捷打开查看。
+
 # LeetCode
