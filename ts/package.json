@@ -33,7 +33,6 @@
     "lint": "tslint -c tslint.json 'src/**/*.(ts|tsx)'",
     "precommit": "lint-staged",
     "prettier-all": "prettier --write 'src/**/*' '!src/{assets,datas}/**'",
-    "postinstall": "lerna clean --yes && lerna bootstrap",
     "start": "webpack-dashboard -- npm run dev",
     "test": "jest --config ./scripts/jest/jest.config.js",
     "test:watch": "npm test -- --watch",
@@ -41,7 +40,7 @@
     "upgrade": "./scripts/tools/upgrade_packages.sh"
   },
   "devDependencies": {
-    "@types/jest": "23.3.12",
+    "@types/jest": "^24.0.17",
     "autoprefixer": "9.4.5",
     "copy-webpack-plugin": "^4.6.0",
     "css-loader": "2.1.0",
