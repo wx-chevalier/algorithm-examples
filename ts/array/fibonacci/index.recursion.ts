@@ -1,5 +1,4 @@
 /* 斐波那契数列的递归解法 */
-
 export function fibonacci(n: number): number {
   if (n === 0) {
     return 0;

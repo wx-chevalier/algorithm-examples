@@ -13,7 +13,7 @@
     }
  */
 
-export const convert2Tree = (data, rootId) => {
+export const convert2Tree = (data: Array<any>, rootId: number) => {
   const parentMapping = {};
 
   // 首先建立父子地址映射
