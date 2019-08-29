@@ -14,6 +14,7 @@ export function fibonacci(n: number) {
 export function* fibonacciGenerator(n: number) {
   // 当未输入 n 时，默认为无限循环
   const infinite = !n && n !== 0;
+
   let current = 0;
   let next = 1;
 

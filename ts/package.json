@@ -34,7 +34,7 @@
     "precommit": "lint-staged",
     "prettier-all": "prettier --write 'src/**/*' '!src/{assets,datas}/**'",
     "start": "webpack-dashboard -- npm run dev",
-    "test": "jest --config ./scripts/jest/jest.config.js",
+    "test": "jest --config ./jest.config.js",
     "test:watch": "npm test -- --watch",
     "test:cov": "npm run cleanCov && npm test -- --coverage",
     "upgrade": "./scripts/tools/upgrade_packages.sh"
