@@ -4,8 +4,6 @@
 
 algorithm-snippets 是 [coding-snippets](https://github.com/wxyyxc1992/coding-snippets) 的重要组成部分，本仓库侧重于对于不同算法的实现的分析，对于不同语言下常见数据结构的实现，请参阅各个[编程语言的笔记仓库](https://github.com/wx-chevalier)。
 
-![数据结构与算法](https://i.postimg.cc/TwJXwHdG/image.png)
-
 # Nav | 导航
 
 - Java
